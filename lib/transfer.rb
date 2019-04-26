@@ -10,6 +10,6 @@ class Transfer
   end
   
   def valid?
-    
+    if self.sender && self.rec
   end
 end
