@@ -18,6 +18,6 @@ class Transfer
   end
   
   def execute_transaction
-    
+    @amount = 950
   end
 end
