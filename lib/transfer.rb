@@ -10,6 +10,10 @@ class Transfer
   end
   
   def valid?
-    if self.sender && self.rec
+    if self.sender && self.receiver
+      return true 
+    else
+      return false
+    end
   end
 end
